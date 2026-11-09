@@ -57,3 +57,7 @@ Plugins are referenced by their git repo, so each is developed, versioned and re
 Contributions are welcome: fixes for a tool's marketplace format, support for more tools, and ideas for plugins. Open an issue or a pull request; see [`AGENTS.md`](AGENTS.md) for the conventions. Plugin-specific changes belong in that plugin's repo.
 
 More documentation is on the [wiki](https://github.com/NunoMotaRicardo/nmr-plugins/wiki).
+
+## License
+
+[MIT](LICENSE)
