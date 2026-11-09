@@ -1,0 +1,12 @@
+{
+  "name": "nmr-plugins",
+  "interface": { "displayName": "NMR Plugins" },
+  "plugins": [
+    {
+      "name": "adlc",
+      "source": { "source": "url", "url": "https://github.com/NunoMotaRicardo/nmr-adlc.git" },
+      "policy": { "installation": "AVAILABLE", "authentication": "ON_INSTALL" },
+      "category": "Productivity"
+    }
+  ]
+}

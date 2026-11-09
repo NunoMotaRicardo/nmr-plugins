@@ -1,0 +1,13 @@
+{
+  "name": "nmr-plugins",
+  "description": "NunoMotaRicardo's AI plugins",
+  "owner": { "name": "NunoMotaRicardo" },
+  "plugins": [
+    {
+      "name": "adlc",
+      "source": { "source": "github", "repo": "NunoMotaRicardo/nmr-adlc" },
+      "description": "Developer lifecycle skills: brainstorm, research, PM, implement, PR review, diagnose, prototype and repo setup.",
+      "category": "productivity"
+    }
+  ]
+}
