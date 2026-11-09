@@ -1,13 +1,27 @@
 {
   "name": "nmr-plugins",
   "description": "NunoMotaRicardo's AI plugins",
-  "owner": { "name": "NunoMotaRicardo" },
+  "owner": {
+    "name": "NunoMotaRicardo"
+  },
   "plugins": [
     {
       "name": "adlc",
-      "source": { "source": "github", "repo": "NunoMotaRicardo/nmr-adlc" },
+      "source": {
+        "source": "github",
+        "repo": "NunoMotaRicardo/nmr-adlc"
+      },
       "description": "Developer lifecycle skills: brainstorm, research, PM, implement, PR review, diagnose, prototype and repo setup.",
       "category": "productivity"
+    },
+    {
+      "name": "etoro",
+      "source": {
+        "source": "github",
+        "repo": "NunoMotaRicardo/e-toro-plugin-ai"
+      },
+      "description": "eToro Public API for AI agents: market data, portfolio, watchlists and demo-first trading, with guided key setup.",
+      "category": "finance"
     }
   ]
 }

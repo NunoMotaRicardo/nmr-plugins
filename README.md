@@ -9,7 +9,7 @@ I built it for myself, but the plugins are usable by anyone and contributions ar
 | Plugin | What it is | Repo |
 |---|---|---|
 | `adlc` | My agentic planning and coding workflow: brainstorm, research, plan, implement, review. | [nmr-adlc](https://github.com/NunoMotaRicardo/nmr-adlc) |
-| `etoro` | eToro plugin (work in progress, not listed yet). | [e-toro-plugin-ai](https://github.com/NunoMotaRicardo/e-toro-plugin-ai) |
+| `etoro` | eToro Public API for agents: market data, portfolio, demo-first trading, guided key setup. | [e-toro-plugin-ai](https://github.com/NunoMotaRicardo/e-toro-plugin-ai) |
 
 ## Add the marketplace
 
