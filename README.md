@@ -13,13 +13,16 @@ I built it for myself, but the plugins are usable by anyone and contributions ar
 | `ibkr-cli` | Token-lean Go CLI and skill for the Interactive Brokers MCP connector, guided OAuth connect. | [ibkr-cli](https://github.com/NunoMotaRicardo/ibkr-cli) |
 | `etoro-cli` | Token-lean Go CLI and skill for the eToro Public API, guided API-key connect. | [etoro-cli](https://github.com/NunoMotaRicardo/etoro-cli) |
 
-## Add the marketplace
+## Add the marketplace and install a plugin
 
 **Claude Code**
 
 ```bash
 claude plugin marketplace add NunoMotaRicardo/nmr-plugins
 claude plugin install adlc@nmr-plugins
+# or install one of the CLI plugins:
+claude plugin install etoro-cli@nmr-plugins
+claude plugin install ibkr-cli@nmr-plugins
 ```
 
 **Codex**
@@ -27,6 +30,7 @@ claude plugin install adlc@nmr-plugins
 ```bash
 codex plugin marketplace add NunoMotaRicardo/nmr-plugins
 codex plugin add adlc@nmr-plugins
+# or: codex plugin add etoro-cli@nmr-plugins / ibkr-cli@nmr-plugins
 ```
 
 **GitHub Copilot CLI**
@@ -34,11 +38,19 @@ codex plugin add adlc@nmr-plugins
 ```bash
 copilot plugin marketplace add NunoMotaRicardo/nmr-plugins
 copilot plugin install adlc@nmr-plugins
+# or: copilot plugin install etoro-cli@nmr-plugins / ibkr-cli@nmr-plugins
 ```
 
-**Cursor** — add the repo as a plugin marketplace and install `adlc`.
+**Cursor** — add `NunoMotaRicardo/nmr-plugins` as a plugin marketplace and install `adlc`, `etoro-cli`, or `ibkr-cli`.
 
-**Gemini CLI, Antigravity** — these install directly from a plugin's repo; see that plugin's README.
+**Gemini CLI, Antigravity** — install directly from a plugin's repo (for example `gemini extensions install https://github.com/NunoMotaRicardo/etoro-cli`); see that plugin's README.
+
+For the CLI plugins (`etoro-cli` and `ibkr-cli`), the plugin installs the Agent Skill; install the matching Go binary separately (`go install`) and run `connect` once in a terminal before using it with an agent:
+
+```bash
+go install github.com/NunoMotaRicardo/etoro-cli/cmd/etoro-cli@latest
+go install github.com/NunoMotaRicardo/ibkr-cli/cmd/ibkr@latest
+```
 
 Claude Code is what I use daily. The other tools are supported on a best-effort basis, so if something doesn't work in yours, please open an issue.
 
