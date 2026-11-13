@@ -10,6 +10,8 @@ I built it for myself, but the plugins are usable by anyone and contributions ar
 |---|---|---|
 | `adlc` | My agentic planning and coding workflow: brainstorm, research, plan, implement, review. | [nmr-adlc](https://github.com/NunoMotaRicardo/nmr-adlc) |
 | `etoro` | eToro Public API for agents: market data, portfolio, demo-first trading, guided key setup. | [e-toro-plugin-ai](https://github.com/NunoMotaRicardo/e-toro-plugin-ai) |
+| `ibkr-cli` | Token-lean Go CLI and skill for the Interactive Brokers MCP connector, guided OAuth connect. | [ibkr-cli](https://github.com/NunoMotaRicardo/ibkr-cli) |
+| `etoro-cli` | Token-lean Go CLI and skill for the eToro Public API, guided API-key connect. | [etoro-cli](https://github.com/NunoMotaRicardo/etoro-cli) |
 
 ## Add the marketplace
 

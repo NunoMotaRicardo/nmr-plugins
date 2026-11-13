@@ -27,6 +27,30 @@
         "authentication": "ON_INSTALL"
       },
       "category": "Finance"
+    },
+    {
+      "name": "ibkr-cli",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/NunoMotaRicardo/ibkr-cli.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Finance"
+    },
+    {
+      "name": "etoro-cli",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/NunoMotaRicardo/etoro-cli.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Finance"
     }
   ]
 }

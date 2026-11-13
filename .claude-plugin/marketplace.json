@@ -22,6 +22,24 @@
       },
       "description": "eToro Public API for AI agents: market data, portfolio, watchlists and demo-first trading, with guided key setup.",
       "category": "finance"
+    },
+    {
+      "name": "ibkr-cli",
+      "source": {
+        "source": "github",
+        "repo": "NunoMotaRicardo/ibkr-cli"
+      },
+      "description": "Token-lean Go CLI and skill for the Interactive Brokers MCP connector: quotes, positions, options, screeners, alerts and order instructions, with guided OAuth connect.",
+      "category": "finance"
+    },
+    {
+      "name": "etoro-cli",
+      "source": {
+        "source": "github",
+        "repo": "NunoMotaRicardo/etoro-cli"
+      },
+      "description": "Token-lean Go CLI and skill for the eToro Public API: quotes, portfolio, watchlists and demo-first trading, with guided API-key connect.",
+      "category": "finance"
     }
   ]
 }
